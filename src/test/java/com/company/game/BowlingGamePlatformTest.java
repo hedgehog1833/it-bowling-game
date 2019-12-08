@@ -32,7 +32,7 @@ class BowlingGamePlatformTest {
     bowlingGamePlatform.playBowlingGame(bowlingGame);
     BowlingGameResult bowlingGameResult = bowlingGame.getBowlingGameResult();
 
-    assertEquals(300, bowlingGameResult.getScore());
+    assertEquals(301, bowlingGameResult.getScore());
   }
 
   @Test
