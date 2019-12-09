@@ -18,3 +18,7 @@ dependencies {
     testCompile group: 'org.mockito', name: 'mockito-junit-jupiter', version: '3.0.0'
 
 }
+
+test {
+    useJUnit()
+}
