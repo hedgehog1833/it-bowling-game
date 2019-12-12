@@ -2,8 +2,6 @@ name: PushWorkflow
 
 on:
   push:
-    branches:
-      - master
 
 jobs:
   build:
