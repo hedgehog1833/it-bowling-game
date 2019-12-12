@@ -2,6 +2,8 @@ name: PushWorkflow
 
 on:
   push:
+    branches-ignore:
+      - master
 
 jobs:
   build:
